@@ -20,7 +20,7 @@ flowchart LR
   V --> R
   R --> S[Evidence sentence selection]
   S --> C[Cited extractive answer]
-  API --> E[Recall@5 / MRR@5 evaluation]
+  API --> E["Recall@5 / MRR@5 evaluation"]
 ```
 
 ## Run locally (Windows PowerShell)
